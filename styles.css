@@ -1,0 +1,131 @@
+header {
+  font-size: 12px;
+  color: white;
+  text-align: right;
+  margin-right: 100px;
+  padding-top: 15px;
+}
+
+.background {
+
+background-image: url(./pics/pexels-photo-2078266.webp);
+background-size: cover;
+height: 100vh;
+text-align: center;
+display: flex;
+flex-direction: column;
+object-fit: cover;
+}
+
+h1 {
+  display: block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 200px;
+  line-height: 130%;
+  text-shadow: 2px 2px #ff0000;
+  justify-content: center;
+  /* border: 1px solid red; */
+  
+}
+
+h2 {
+  display: flex;
+  font-family: monospace;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px #1f5edc;
+  /* border: 1px solid red; */
+ 
+
+letter-spacing: 4px;
+}
+
+.fullbox {
+ 
+  background-color: white;
+  width: 370px;
+  height: 13px;
+  margin: auto;
+  box-shadow: 2px 2px 5px grey;
+  
+  display: flex;
+    justify-content: left; 
+    align-items: center; 
+    border: 1px solid;
+   
+    position: relative;
+    border: 1px solid red;
+}
+.halfbox {
+  background-color: rgb(49, 152, 194);
+  width: 300px;
+  height: 13px;
+
+
+  
+    justify-content: left; 
+    align-items: left; 
+    
+    
+}
+h4 {
+  display: flex;
+  color: white;
+  justify-content: center;
+ padding: 0;
+ word-spacing: 300px;
+ 
+  gap: 202px;
+  
+}
+input[type=button] {
+  display: block;
+  margin: auto;
+  height: 35px;
+  width: 100px;
+  background-color: rgba(148, 236, 236, 0.815);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgba(32, 32, 32, 0.9);
+  border-radius: 5px;
+}
+
+img {
+  /* display: inline-block; */
+  width: 50px;
+  margin: 10px;
+  padding: 5px;
+  /* border: 1px solid red; */
+}
+
+hr {  
+  margin: auto;
+  margin-top: 100px;
+  width: 70%;
+  text-align: center;
+  border-color: grey;
+  
+}
+footer {
+  color: grey;
+}
+
+* {box-sizing: border-box;
+margin: 0;
+padding: 0;}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: auto;
+}
